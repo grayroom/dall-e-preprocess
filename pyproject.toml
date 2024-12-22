@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "dall-e-demo"
+version = "0.1.0"
+description = ""
+authors = ["grayroom <leejh9226@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.58.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
